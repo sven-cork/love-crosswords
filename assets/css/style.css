@@ -13,6 +13,7 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .flex-item-blue {
@@ -22,22 +23,18 @@ div {
     
 }
 
-/*#firstdiv {
-    flex-grow: 0.8;
-}
-
-#seconddiv {
-    flex-grow: 0.8;
-}
-
-#thirddiv {
-    flex-grow: 0.8;
-}
-
-#fourthdiv {
-    flex-grow: 0.8;
-}
-
 #fifthdiv {
-    flex-grow: 0.8;
-}*/
+    background: black;
+}
+
+#tenthdiv {
+    background: black;
+}
+
+#sixteenthdiv {
+    background: black;
+}
+
+#twentyfirstdiv {
+    background: black;
+}
