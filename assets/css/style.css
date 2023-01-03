@@ -1,7 +1,43 @@
 body {
-    background: blue;
+    background: whitesmoke;
 }
 
 div {
-    background: red;
+    width: 500px;
+    height: 500px;
+    background: black;
+    border: solid;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-item-blue {
+    background-color: whitesmoke;
+    height: 90px;
+    width: 90px;
+    
+}
+
+/*#firstdiv {
+    flex-grow: 0.8;
+}
+
+#seconddiv {
+    flex-grow: 0.8;
+}
+
+#thirddiv {
+    flex-grow: 0.8;
+}
+
+#fourthdiv {
+    flex-grow: 0.8;
+}
+
+#fifthdiv {
+    flex-grow: 0.8;
+}*/
